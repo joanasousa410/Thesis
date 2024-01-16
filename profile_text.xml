@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile xmlns="http://csrc.nist.gov/ns/oscal/1.0" 
+    uuid="c0dc468c-934e-4fe9-b5bf-9fc63f5a2915">
+  <metadata>
+    <title>Sample Security Profile 
+      <em>for Demonstration</em> and Testing
+    </title>
+    <last-modified>2023-04-10T10:31:28.355446-04:00</last-modified>
+    <version>1.0</version>
+    <oscal-version>1.0.4</oscal-version>
+    <revisions/>
+    <remarks>
+      <p>The following document is used in the OSCAL Profile Tutorial and builds on the catalog created for the OSCAL Catalog Tutorial</p>
+    </remarks>
+  </metadata>
+  <import href="https://raw.githubusercontent.com/joanasousa410/Thesis/main/ETSI_OSCAL_Catalog_5.json">
+    <include-controls>
+        <with-id>ovr-5.1-01</with-id>
+        <with-id>ovr-5.1-02</with-id>
+        <with-id>ovr-5.1-03</with-id>
+        <with-id>ovr-5.2-01</with-id>
+        <with-id>ovr-5.2-02</with-id>
+        <with-id>ovr-5.3-01</with-id>
+    </include-controls>
+  </import>
+  <merge>
+    <flat/>
+  </merge>
+</profile>
