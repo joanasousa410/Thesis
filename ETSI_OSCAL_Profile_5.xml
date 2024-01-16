@@ -7,7 +7,7 @@
         <version>1.0</version>
         <oscal-version>1.1.0</oscal-version>
     </metadata>
-    <import href="https://raw.githubusercontent.com/joanasousa410/Thesis/main/ETSI_OSCAL_Catalog_5.json">
+    <import href="https://raw.githubusercontent.com/joanasousa410/Thesis/main/Catalog.json">
         <include-controls>
             <with-id>ovr-5.1-01</with-id>
             <with-id>ovr-5.1-02</with-id>
