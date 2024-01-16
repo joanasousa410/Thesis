@@ -1,0 +1,20 @@
+{
+  "profile" : {
+    "uuid" : "f6d5a96a-de3f-4237-9a5d-9253704c788f",
+    "metadata" : {
+      "title" : "ETSI EN 319 421 V1.2.1",
+      "last-modified" : "2023-05-05T01:00:00+01:00",
+      "version" : "1.0",
+      "oscal-version" : "1.1.0"
+    },
+    "imports" : [ {
+      "href" : "#0069c46e-6fd1-4b72-bc64-fd4e6d4a2190",
+      "include-controls" : [ {
+        "with-ids" : [ "ovr-5.1-01", "ovr-5.1-02", "ovr-5.1-03", "ovr-5.2-01", "ovr-5.2-02", "ovr-5.3-01" ]
+      } ]
+    } ],
+    "merge" : {
+      "as-is" : true
+    }
+  }
+}
