@@ -9,7 +9,7 @@
       "remarks" : "The following document is used in the OSCAL Profile Tutorial and builds on the catalog created for the OSCAL Catalog Tutorial"
     },
     "imports" : [ {
-      "href" : "https://raw.githubusercontent.com/usnistgov/oscal-content/main/examples/catalog/json/basic-catalog.json",
+      "href" : "https://raw.githubusercontent.com/joanasousa410/Thesis/main/basic/converted.json",
       "include-controls" : [ {
         "matching" : [ {
           "pattern" : "s1.1.*"
