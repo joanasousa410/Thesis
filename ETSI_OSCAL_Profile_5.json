@@ -8,7 +8,7 @@
       "oscal-version" : "1.1.0"
     },
     "imports" : [ {
-      "href" : "ETSI_OSCAL_Catalog_5.json",
+      "href" : "https://raw.githubusercontent.com/joanasousa410/Thesis/main/ETSI_OSCAL_Catalog_5.json",
       "include-controls" : [ {
         "with-ids" : [ "ovr-5.1-01", "ovr-5.1-02", "ovr-5.1-03", "ovr-5.2-01", "ovr-5.2-02", "ovr-5.3-01" ]
       } ]
