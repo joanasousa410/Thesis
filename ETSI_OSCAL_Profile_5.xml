@@ -1,31 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model schematypens="http://www.w3.org/2001/XMLSchema" type="application/xml" href="https://github.com/usnistgov/OSCAL/releases/download/v1.1.1/oscal_complete_schema.xsd"?>
-<profile xmlns="http://csrc.nist.gov/ns/oscal/1.0" 
-    uuid="f6d5a96a-de3f-4237-9a5d-9253704c788f">
-  <metadata>
-    <title>ETSI EN 319 421</title>
-    <last-modified>2023-05-05T01:00:00+01:00</last-modified>
-    <version>1.2.1</version>
-    <oscal-version>1.1.1</oscal-version>
-    <remarks>
-      <p>The following document contains all controls in ETSI EN 319 421</p>
-    </remarks>
-  </metadata>
-  <import href="https://raw.githubusercontent.com/joanasousa410/Thesis/main/ETSI_OSCAL_Catalog_5.json">
-    <include-controls>
+<profile xmlns="http://csrc.nist.gov/ns/oscal/1.0" uuid="f6d5a96a-de3f-4237-9a5d-9253704c788f">
+    <metadata>
+        <title>ETSI EN 319 421</title>
+        <last-modified>2023-05-05T01:00:00+01:00</last-modified>
+        <version>1.2.1</version>
+        <oscal-version>1.1.1</oscal-version>
+        <party type="organization" uuid="4bc82884-5a0c-486b-94d5-cc5195615ad3">
+            <name>European Telecommunications Standards Institute</name>
+            <telephone-number>33492944200</telephone-number>
+            <address>
+                <addr-line>ETSI</addr-line>
+                <addr-line>650 Route des Lucioles</addr-line>
+                <addr-line>F-06921 Sophia Antipolis Cedex</addr-line>
+                <country>FR</country>
+            </address>
+        </party>
+        <remarks>
+            <p>The following document is a profile containing all controls from ETSI EN 319 421</p>
+        </remarks>
+    </metadata>
+    <import href="https://raw.githubusercontent.com/joanasousa410/Thesis/main/ETSI_OSCAL_Catalog_5.json">
+        <include-controls>
             <with-id>ovr-5.1-01</with-id>
             <with-id>ovr-5.1-02</with-id>
             <with-id>ovr-5.1-03</with-id>
             <with-id>ovr-5.2-01</with-id>
             <with-id>ovr-5.2-02</with-id>
             <with-id>ovr-5.3-01</with-id>
-    </include-controls>
-  </import>
-  <merge>
+        </include-controls>
+    </import>
     <as-is>true</as-is>
-  </merge>
     <back-matter>
-    <resource uuid="0c45360c-12e9-476a-97a0-b220b2e39030">
+        <resource uuid="0c45360c-12e9-476a-97a0-b220b2e39030">
             <title>ETSI EN 319 421 - Electronic Signatures and Infrastructures (ESI); Policy and security requirements for Trust Service Providers issuing Time-Stamps</title>
             <citation><text>This is the document from which the controls in this profile are derived.</text></citation>
             <rlink href="https://www.etsi.org/deliver/etsi_en/319400_319499/319421/01.01.01_60/en_319421v010101p.pdf" media-type="application/pdf"/>
