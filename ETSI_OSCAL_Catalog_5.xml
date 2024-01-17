@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model schematypens="http://www.w3.org/2001/XMLSchema" type="application/xml" href="https://github.com/usnistgov/OSCAL/releases/download/v1.1.1/oscal_complete_schema.xsd"?>
+<catalog xmlns="http://csrc.nist.gov/ns/oscal/1.0" uuid="0069c46e-6fd1-4b72-bc64-fd4e6d4a2190">
+    <metadata>
+        <title>ETSI EN 319 421</title>
+        <published>2023-05-05T01:00:00+01:00</published>
+        <last-modified>2023-05-05T01:00:00+01:00</last-modified>
+        <version>1.2.1</version>
+        <oscal-version>1.1.1</oscal-version>
+        <prop name="keywords" value="e-commerce, electronic signature, security,time-stamping, trust services"/>
+        <party type="organization" uuid="4bc82884-5a0c-486b-94d5-cc5195615ad3">
+            <name>European Telecommunications Standards Institute</name>
+            <telephone-number>33492944200</telephone-number>
+            <address>
+                <addr-line>ETSI</addr-line>
+                <addr-line>650 Route des Lucioles</addr-line>
+                <addr-line>F-06921 Sophia Antipolis Cedex</addr-line>
+                <country>FR</country>
+            </address>
+        </party>
+    </metadata>
+    <group id="s5">
+    <title>Introduction to time-stamp policies and general requirements</title>
+    <prop name="label" value="5"/>
+    <group id="s5.1"> 
+        <title>General requirements</title>
+        <control class="ETSI-EN-319-421" id="ovr-5.1-01">
+            <title>Definition of own policy</title>
+            <part name="statement">
+                <p> A TSA may define its own policy which enhances a policy defined in the present document. </p>
+            </part>
+        </control>
+        <control class="ETSI-EN-319-421" id="ovr-5.1-02">
+            <title>Incorporation or restriction of requirements</title>
+            <prop name="label" value="[CONDITIONAL] OVR-5.1-02"/>
+            <part name="statement">
+                <p> If the TSA defines its own policy it shall incorporate or further constrain the
+                    requirements identified in the present document. </p>
+            </part>
+        </control>
+        <control class="ETSI-EN-319-421" id="ovr-5.1-03">
+            <title>Timestamp accuracy display</title>
+            <prop name="label" value="[CONDITIONAL] OVR-5.1-03"/>
+            <part name="statement">
+                <p> If an accuracy of better than 1 second is provided by the TSA then the accuracy shall be indicated in the TSA's disclosure part
+                and in each time-stamp issued to an accuracy of better than 1 second.</p>
+            </part>
+        </control>
+    </group>
+    </group>
+    <group id="s5.2"> 
+        <title>Policy name and identification</title>
+        <control class="ETSI-EN-319-421" id="ovr-5.2-01">
+            <title>Inclusion of Time-Stamp Policy Identifier in TSA Disclosure part</title>
+            <part name="statement">
+                <p> A TSA shall include the identifier for the time-stamp policy being supported in the TSA disclosure part made available to subscribers and relying parties to indicate its claim of conformance. </p>
+            </part>
+        </control>
+        <control class="ETSI-EN-319-421" id="ovr-5.2-02">
+            <title>Indication of Supported ETSI Time-Stamping Identifier in TSA Policy and Disclosure part</title>
+            <prop name="label" value="[CONDITIONAL] OVR-5.2-02"/>
+            <part name="statement">
+                <p>If the TSA uses its own identifier for the time-stamp policy, the TSA shall indicate in its policy document and in its TSA disclosure part, the ETSI time-stamping identifier (i.e. BSTP) being supported.</p>
+            </part>
+        </control>
+    </group>
+    <group id="s5.3"> 
+        <title>User community and applicability</title>
+        <group id="s5.3.1"> 
+            <title>Best practices time-stamp policy</title>
+            <control class="ETSI-EN-319-421" id="ovr-5.3-01">
+                <title>Time-Stamping Policy for Public and Closed Community Services</title>
+                <part name="statement">
+                    <p>This policy may be used for public time-stamping services or time-stamping services used within a closed community.</p>
+                </part>
+            </control>
+        </group>
+    </group>
+    <back-matter>
+        <resource uuid="0c45360c-12e9-476a-97a0-b220b2e39030">
+            <title>ETSI EN 319 421 - Electronic Signatures and Infrastructures (ESI); Policy and security requirements for Trust Service Providers issuing Time-Stamps</title>
+            <citation><text>This is the document from which the controls in this catalog are derived.</text></citation>
+            <rlink href="https://www.etsi.org/deliver/etsi_en/319400_319499/319421/01.01.01_60/en_319421v010101p.pdf" media-type="application/pdf"/>
+        </resource>
+    </back-matter>
+</catalog>
