@@ -6,12 +6,29 @@
       "last-modified" : "2023-05-05T01:00:00+01:00",
       "version" : "1.2.1",
       "oscal-version" : "1.1.1",
-      "remarks" : "The following document contains all controls in ETSI EN 319 421"
+      "parties" : [ {
+        "uuid" : "4bc82884-5a0c-486b-94d5-cc5195615ad3",
+        "type" : "organization",
+        "name" : "European Telecommunications Standards Institute",
+        "telephone-numbers" : [ {
+          "number" : "33492944200"
+        } ],
+        "addresses" : [ {
+          "addr-lines" : [ "ETSI", "650 Route des Lucioles", "F-06921 Sophia Antipolis Cedex" ],
+          "country" : "FR"
+        } ]
+      } ],
+      "remarks" : "The following document is a profile containing all controls from ETSI EN 319 421"
     },
     "imports" : [ {
-      "href" : "https://raw.githubusercontent.com/joanasousa410/Thesis/main/ETSI_OSCAL_Catalog_5.json",
+      "href" : "https://github.com/joanasousa410/Thesis/blob/main/ETSI_OSCAL_Catalog_5.json",
       "include-controls" : [ {
-        "with-ids" : [ "ovr-5.1-01", "ovr-5.1-02", "ovr-5.1-03", "ovr-5.2-01", "ovr-5.2-02", "ovr-5.3-01" ]
+        "with-ids" : [  "ovr-5.1-01",
+                        "ovr-5.1-02", 
+                        "ovr-5.1-03", 
+                        "ovr-5.2-01", 
+                        "ovr-5.2-02", 
+                        "ovr-5.3-01" ]
       } ]
     } ],
     "merge" : {
