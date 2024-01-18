@@ -1,1 +1,175 @@
-{"catalog":{"uuid":"0069c46e-6fd1-4b72-bc64-fd4e6d4a2190","metadata":{"title":"ETSI EN 319 421","published":"2023-05-05T01:00:00+01:00","last-modified":"2023-05-05T01:00:00+01:00","version":"1.2.1","oscal-version":"1.1.1","props":[{"name":"keywords","value":"e-commerce, electronic signature, security,time-stamping, trust services"}],"parties":[{"uuid":"4bc82884-5a0c-486b-94d5-cc5195615ad3","type":"organization","name":"European Telecommunications Standards Institute","telephone-numbers":[{"number":"33492944200"}],"addresses":[{"addr-lines":["ETSI","650 Route des Lucioles","F-06921 Sophia Antipolis Cedex"],"country":"FR"}]}]},"groups":[{"id":"s5","title":"Introduction to time-stamp policies and general requirements","props":[{"name":"label","value":"5"}],"groups":[{"id":"s5.1","title":"General requirements","controls":[{"id":"ovr-5.1-01","class":"ETSI-EN-319-421","title":"Definition of own policy","parts":[{"name":"statement","prose":" A TSA may define its own policy which enhances a policy defined in the present document. "}]},{"id":"ovr-5.1-02","class":"ETSI-EN-319-421","title":"Incorporation or restriction of requirements","props":[{"name":"label","value":"[CONDITIONAL] OVR-5.1-02"}],"parts":[{"name":"statement","prose":" If the TSA defines its own policy it shall incorporate or further constrain the requirements identified in the present document. "}]},{"id":"ovr-5.1-03","class":"ETSI-EN-319-421","title":"Timestamp accuracy display","props":[{"name":"label","value":"[CONDITIONAL] OVR-5.1-03"}],"parts":[{"name":"statement","prose":" If an accuracy of better than 1 second is provided by the TSA then the accuracy shall be indicated in the TSA's disclosure part and in each time-stamp issued to an accuracy of better than 1 second."}]}]}]},{"id":"s5.2","title":"Policy name and identification","controls":[{"id":"ovr-5.2-01","class":"ETSI-EN-319-421","title":"Inclusion of Time-Stamp Policy Identifier in TSA Disclosure part","parts":[{"name":"statement","prose":" A TSA shall include the identifier for the time-stamp policy being supported in the TSA disclosure part made available to subscribers and relying parties to indicate its claim of conformance. "}]},{"id":"ovr-5.2-02","class":"ETSI-EN-319-421","title":"Indication of Supported ETSI Time-Stamping Identifier in TSA Policy and Disclosure part","props":[{"name":"label","value":"[CONDITIONAL] OVR-5.2-02"}],"parts":[{"name":"statement","prose":"If the TSA uses its own identifier for the time-stamp policy, the TSA shall indicate in its policy document and in its TSA disclosure part, the ETSI time-stamping identifier (i.e. BSTP) being supported."}]}]},{"id":"s5.3","title":"User community and applicability","groups":[{"id":"s5.3.1","title":"Best practices time-stamp policy","controls":[{"id":"ovr-5.3-01","class":"ETSI-EN-319-421","title":"Time-Stamping Policy for Public and Closed Community Services","parts":[{"name":"statement","prose":"This policy may be used for public time-stamping services or time-stamping services used within a closed community."}]}]}]}],"back-matter":{"resources":[{"uuid":"0c45360c-12e9-476a-97a0-b220b2e39030","title":"ETSI EN 319 421 - Electronic Signatures and Infrastructures (ESI); Policy and security requirements for Trust Service Providers issuing Time-Stamps","citation":{"text":"This is the document from which the controls in this catalog are derived."},"rlinks":[{"href":"https:\/\/www.etsi.org\/deliver\/etsi_en\/319400_319499\/319421\/01.01.01_60\/en_319421v010101p.pdf","media-type":"application\/pdf"}]}]}}}
+{
+  "catalog": {
+    "uuid": "0069c46e-6fd1-4b72-bc64-fd4e6d4a2190",
+    "metadata": {
+      "title": "ETSI EN 319 421",
+      "published": "2023-05-05T01:00:00+01:00",
+      "last-modified": "2023-05-05T01:00:00+01:00",
+      "version": "1.2.1",
+      "oscal-version": "1.1.1",
+      "props": [
+        {
+          "name": "keywords",
+          "value": "e-commerce, electronic signature, security, time-stamping, trust services"
+        }
+      ],
+      "parties": [
+        {
+          "uuid": "4bc82884-5a0c-486b-94d5-cc5195615ad3",
+          "type": "organization",
+          "name": "European Telecommunications Standards Institute",
+          "telephone-numbers": [
+            {
+              "number": "33492944200"
+            }
+          ],
+          "addresses": [
+            {
+              "addr-lines": ["ETSI", "650 Route des Lucioles", "F-06921 Sophia Antipolis Cedex"],
+              "country": "FR"
+            }
+          ]
+        }
+      ]
+    },
+    "groups": [
+      {
+        "id": "s5",
+        "title": "Introduction to time-stamp policies and general requirements",
+        "props": [
+          {
+            "name": "label",
+            "value": "5"
+          }
+        ],
+        "groups": [
+          {
+            "id": "s5.1",
+            "title": "General requirements",
+            "controls": [
+              {
+                "id": "ovr-5.1-01",
+                "class": "ETSI-EN-319-421",
+                "title": "Definition of own policy",
+                "parts": [
+                  {
+                    "name": "statement",
+                    "prose": " A TSA may define its own policy which enhances a policy defined in the present document. "
+                  }
+                ]
+              },
+              {
+                "id": "ovr-5.1-02",
+                "class": "ETSI-EN-319-421",
+                "title": "Incorporation or restriction of requirements",
+                "props": [
+                  {
+                    "name": "label",
+                    "value": "[CONDITIONAL] OVR-5.1-02"
+                  }
+                ],
+                "parts": [
+                  {
+                    "name": "statement",
+                    "prose": " If the TSA defines its own policy it shall incorporate or further constrain the requirements identified in the present document. "
+                  }
+                ]
+              },
+              {
+                "id": "ovr-5.1-03",
+                "class": "ETSI-EN-319-421",
+                "title": "Timestamp accuracy display",
+                "props": [
+                  {
+                    "name": "label",
+                    "value": "[CONDITIONAL] OVR-5.1-03"
+                  }
+                ],
+                "parts": [
+                  {
+                    "name": "statement",
+                    "prose": " If an accuracy of better than 1 second is provided by the TSA then the accuracy shall be indicated in the TSA's disclosure part and in each time-stamp issued to an accuracy of better than 1 second."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "s5.2",
+        "title": "Policy name and identification",
+        "controls": [
+          {
+            "id": "ovr-5.2-01",
+            "class": "ETSI-EN-319-421",
+            "title": "Inclusion of Time-Stamp Policy Identifier in TSA Disclosure part",
+            "parts": [
+              {
+                "name": "statement",
+                "prose": " A TSA shall include the identifier for the time-stamp policy being supported in the TSA disclosure part made available to subscribers and relying parties to indicate its claim of conformance. "
+              }
+            ]
+          },
+          {
+            "id": "ovr-5.2-02",
+            "class": "ETSI-EN-319-421",
+            "title": "Indication of Supported ETSI Time-Stamping Identifier in TSA Policy and Disclosure part",
+            "props": [
+              {
+                "name": "label",
+                "value": "[CONDITIONAL] OVR-5.2-02"
+              }
+            ],
+            "parts": [
+              {
+                "name": "statement",
+                "prose": "If the TSA uses its own identifier for the time-stamp policy, the TSA shall indicate in its policy document and in its TSA disclosure part, the ETSI time-stamping identifier (i.e. BSTP) being supported."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "s5.3",
+        "title": "User community and applicability",
+        "groups": [
+          {
+            "id": "s5.3.1",
+            "title": "Best practices time-stamp policy",
+            "controls": [
+              {
+                "id": "ovr-5.3-01",
+                "class": "ETSI-EN-319-421",
+                "title": "Time-Stamping Policy for Public and Closed Community Services",
+                "parts": [
+                  {
+                    "name": "statement",
+                    "prose": "This policy may be used for public time-stamping services or time-stamping services used within a closed community."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "back-matter": {
+      "resources": [
+        {
+          "uuid": "0c45360c-12e9-476a-97a0-b220b2e39030",
+          "title": "ETSI EN 319 421 - Electronic Signatures and Infrastructures (ESI); Policy and security requirements for Trust Service Providers issuing Time-Stamps",
+          "citation": {
+            "text": "This is the document from which the controls in this catalog are derived."
+          },
+          "rlinks": [
+            {
+              "href": "https://www.etsi.org/deliver/etsi_en/319400_319499/319421/01.01.01_60/en_319421v010101p.pdf",
+              "media-type": "application/pdf"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
