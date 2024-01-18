@@ -21,7 +21,7 @@
       "remarks" : "The following document is a profile containing all controls from ETSI EN 319 421"
     },
     "imports" : [ {
-      "href" : "https://github.com/joanasousa410/Thesis/blob/main/ETSI_OSCAL_Catalog_5.json",
+      "href" : "https://raw.githubusercontent.com/joanasousa410/Thesis/main/ETSI_OSCAL_Catalog_5.json",
       "include-controls" : [ {
         "with-ids" : [  "ovr-5.1-01",
                         "ovr-5.1-02", 
